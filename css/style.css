@@ -1,0 +1,91 @@
+html, body, .container-table {
+    height: 100%;
+}
+body {
+    background-color: #4cb79f !important;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+.frame {
+    width: 100%;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    padding: 15px;
+}
+.custom-btn {
+    color: #fff;
+    background-color: #4cb79f;
+    border-color: inherit;
+}
+.custom-btn:hover,
+.custom-btn:active,
+.custom-btn:focus,
+.custom-btn:active:hover {
+    background-color: #32ad92;
+    color: #fff !important;
+}
+.inner-addon {
+    position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.left-addon .glyphicon {
+    left:  0px;
+}
+.right-addon .glyphicon {
+    right: 0px;
+}
+.left-addon input {
+    padding-left:  30px;
+}
+.right-addon input {
+    padding-right: 30px; }
+.relat{
+    position: relative;
+    color: white;
+}
+.align-left {
+    text-align: left !important;
+}
+.padding-left-10 {
+    padding-left: 10px !important;
+}
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+.margin-bottom-15{
+    margin-bottom: 15px !important;
+}
+.cstm-xl {
+    position: absolute;
+    display: block;
+    top: 30%;
+    right: -22%;
+    width: 12px;
+    height: 12px;
+    background-color: #e3e3e3;
+    transform: rotate(45deg);
+}
+
+.cstm-mobile {
+    position: absolute;
+    display: block;
+    bottom: -5%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #e3e3e3;
+    transform: rotate(45deg);
+}
+.password {
+    color: #333;
+}
